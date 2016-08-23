@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile ID"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextUserName"
+            android:hint="User Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPassword"
+            android:hint="Password" />
+
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New AutoCompleteTextView"
+            android:id="@+id/autoCompleteTextViewFormFrom"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/save_profile_button"
+            android:layout_gravity="left" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:id="@+id/update_profile_button"
+            android:layout_gravity="left" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE PROFILE"
+            android:id="@+id/delete_profile_button"
+            android:layout_gravity="left" />
+
+        <Button
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:text="Sart Booking"
+            android:id="@+id/start_booking_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.28" />
+</LinearLayout>
